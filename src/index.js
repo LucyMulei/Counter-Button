@@ -1,16 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
-// const counterButton = document.getElementById("counterButton");
-// const numberContainer = document.getElementById("numberContainer");
+const counterButton = document.getElementById("counterButton");
+const numberContainer = document.getElementById("numberContainer");
 
-Number.innerHTML='This is a button'
-console.log(Number.innerHTML);
+// numberContainer.innerHTML='This is a button'
+// console.log(numberContainer.innerHTML);
 
 let number = 0;
 
 function adding() {
   numberContainer.innerHTML = number ++;
-console.log(  numberContainer)
-
+// console.log(numberContainer); it works with or without this part
 }
- counterButton.addEventListener('click', adding)
+counterButton.addEventListener('click', adding)
+
 })
+//  const counterButton = document.getElementById("counterButton");
+//  const numberContainer = document.getElementById("numberContainer");
+
+//  let number = 0;
+
+//  function adding() {
+//    numberContainer.innerHTML = number++;
+//   //  console.log(numberContainer.innerHTML);
+//  }
+
+//  counterButton.addEventListener('click', adding);
